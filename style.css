@@ -1,0 +1,101 @@
+body{
+    background-image: url("./cinema.jpg");
+    background-size: 100%;
+
+}
+
+.bouton_add{
+    border:none;
+	padding:10px;
+	border-radius:5px;
+	box-shadow:2px 2px 6px #999;
+	background:#fff;
+	font:bold 13px Arial;
+    color:#555;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left : 280px;
+    margin-right: 4px;
+
+}
+.bouton_add:hover{
+    background-color: tomato;
+    color: white;
+}
+
+.bouton{
+    border:none;
+	padding:10px;
+	border-radius:5px;
+	box-shadow:2px 2px 6px #999;
+	background:#fff;
+	font:bold 13px Arial;
+    color:#555;
+    margin-bottom: 15px;
+    margin-left:4px;
+    margin-right: 4px;
+    margin-top: 15px;
+}
+
+.bouton:hover{
+    background-color: tomato;
+    color :white;
+}
+
+table{
+    background-color: whitesmoke;
+    margin : auto;
+    border-radius:5px;
+
+}
+
+thead {
+    font-family: 'MS Sans Serif', Geneva, sans-serif;
+    border: thin solid rgb(255, 0, 0);
+    padding: 5px;
+    background-color: #e92424;
+    color : white;
+    text-align: center;
+    }
+tbody {
+    font-family: 'MS Sans Serif', Geneva, sans-serif;
+    border: thin solid rgb(255, 0, 0);
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}
+    caption {
+    font-family: sans-serif;
+    }
+
+.bonjour{
+    background-color:white;
+    width: 150px;
+    text-align: center;
+    float: right;
+    margin-top: 25px;
+    margin-right: 280px;
+}
+
+.erreur{
+    background-color: #e92424;
+    color:white;
+    font-size: large;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.form{
+    background-color: #e92424;
+    color:white;
+    font-size: large;
+    text-align: center;
+}
+
+.statut{
+    background-color :  #e92424;
+    color:white;
+    font-size: large;
+    text-align: center;
+    margin-top: 5%;
+}
